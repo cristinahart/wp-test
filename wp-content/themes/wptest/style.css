@@ -16,3 +16,18 @@ Version:        0.1.0
 .site-description {
   font-size: 0.94rem;
 }
+
+#text-3 > .textwidget {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+#text-3 > .textwidget > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
